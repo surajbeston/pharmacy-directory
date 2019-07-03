@@ -1,7 +1,7 @@
 # pharmacy-directory
 This django application helps in finding relative drugs by searching for the drugs with same compositions.
 
-<b> Working: </b>
+<b> Working: </b><br /><br />
 Basically, this app helps you find the related drugs when you search for one drug. There are two sections, one for the pharmaceuticals,
 who can enter the drugs and the related compositions. And another one is for general people who can then search for the drugs.
 
@@ -14,7 +14,9 @@ And in this way user gets the related drugs on the basis of composition.
 
 
 <i>authentication is only for someone who wants to get into this app totally. Otherwise you can scrap working parts.</i>
-<b> Authentication: </b>
+
+
+<b> Authentication: </b><br /> <br  />
 It has a very complicated authentication system for the pharmaceuticals, just because pharma. business is very critical and motivating if anyone
 goes for money. 
 
