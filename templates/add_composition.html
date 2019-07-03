@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Composition</title>
+  </head>
+  <body>
+    <h1> {{medicine}}</h1>
+    <form method = "post">
+      {% csrf_token %}
+      {{form}}
+      <input type="submit" value = "Add" />
+    </form>
+    <a href="/finish/{{key}}">
+<button >Finish</button></a>
+<a href="/delete/{{key}}">
+    <button  >Cancel</button>
+    </a>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pharmaceuticals Home</title>
+  </head>
+  <body>
+    <h1> Hello representative of {{pharma}}</h1>
+    <h2>Enter the name of medicine with the identity file to register new medicine.</h2>
+    <form method = "post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{form.as_p}}
+      <input type = "submit" value = "Create" />
+    </form>
+  </body>
+</html>

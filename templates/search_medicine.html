@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<h1>Enter medicines to search for relative medicines.</h1>
+<form method = "post">
+  {% csrf_token %}
+  {{form}}
+  <input type= "submit" value = "Search" />
+</form>
+
+
+<div>
+{% for composition in medicines %}
+<div style="color:blue;margin-left:30px; border: solid black 3px; border-radius : 5px; ">
+    <div style = "color: Gray; margin: 50px; border: solid black 3px; border-radius : 3px;">
+      <h2>{{composition.0.medicine.medicine}}</h2>
+        {% for each in composition %}
+            <p style = "font-size: 20px;"> Composition: {{each.composition}} </p>
+            <p>Weightage: {{each.weightage}} mg</p>
+        {% endfor %}
+      </div>
+  {% endfor %}
+</div>
+</div>
+
+
+
+
+
+
+{% endblock %}

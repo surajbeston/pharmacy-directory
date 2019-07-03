@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Code Activation</title>
+  </head>
+  <body>
+    <h1 style = {text-align: center}>Code Activation</h1>
+    <h2> Hello, represeentative from {{name}}. Enter the code sent to the
+       registered mobile phone to generate the authentication file.</h2>
+    <form method = "post">
+      {% csrf_token %}
+        {{form}}
+        <input type = "hidden" value = "{{activation_code}}" name = "activation_code" />
+        <input type = "submit" value = "Enter" />
+    </form>
+    <h3> {{message}}</h3>
+  </body>
+</html>
