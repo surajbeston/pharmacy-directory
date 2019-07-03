@@ -13,7 +13,7 @@ which is determined by a simple scoring mechanism.
 And in this way user gets the related drugs on the basis of composition.
 
 
-<i>authentication is only for someone who wants to get into this app totally. Otherwise you can scrap working parts.</i>
+<i>(Authentication is only for someone who wants to get into this app totally. Otherwise you can scrap working parts.)</i>
 
 
 <b> Authentication: </b><br /> <br  />
