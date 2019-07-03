@@ -24,7 +24,7 @@ Pharmaceuticals needs to signup first with credentials like mobile number and em
 will be sent an authentication link to email address and a integer code to mobile number. The authentication link will redirect to another 
 page where the pharma. will be asked to enter the code sent to mobile number. Then only, the pharma will receive a file which 
 should be used every time while placing entries for the drugs. Actually the file is nothing but encrypted id which is used for entering into
-dataase.
+database.
 
 
 The app can be a bit messy, because it was created on a 36 hour hackathon. 
