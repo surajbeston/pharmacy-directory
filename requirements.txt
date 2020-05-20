@@ -11,7 +11,7 @@ Django==2.2.1
 django-heroku==0.3.1
 entrypoints==0.3
 gunicorn==19.9.0
-httplib2==0.9.2
+httplib2==0.18.0
 isc==2.0
 keyring==17.1.1
 keyrings.alt==3.1.1
