@@ -19,7 +19,7 @@ louis==3.0.0
 Mako==1.0.6
 MarkupSafe==1.1.0
 pexpect==4.6.0
-Pillow==5.4.1
+Pillow==9.0.1
 ply==3.11
 psycopg2==2.8.3
 ptyprocess==0.5.1
