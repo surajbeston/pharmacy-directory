@@ -28,7 +28,7 @@ pycrypto==2.6.1
 pycups==1.9.73
 pycurl==7.43.0.2
 PyGObject==3.30.4
-PyJWT==1.7.1
+PyJWT==2.4.0
 pysmbc==1.0.15.6
 PySocks==1.7.0
 python-apt==1.8.4
